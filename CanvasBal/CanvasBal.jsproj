@@ -32,6 +32,8 @@
     <Content Include="js\default.js" />
     <Content Include="js\jquery-2.1.4.min.js" />
     <Content Include="js\modernizr-1.5.min.js" />
+    <Content Include="sounds\bounce.mp3" />
+    <Content Include="sounds\meh.mp3" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
   <!-- To modify your build process, add your task inside one of the targets below then uncomment

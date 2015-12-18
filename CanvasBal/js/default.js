@@ -37,8 +37,8 @@
     leftDown = false;
 
     // audio
-    var AudioBounce = new Audio('bounce.mp3');
-    var AudioFall = new Audio('meh.mp3');
+    var AudioBounce = new Audio('sounds/bounce.mp3');
+    var AudioFall = new Audio('sounds/meh.mp3');
 
     // zet rightDown of leftDown
     function onKeyDown(evt) {
@@ -155,7 +155,7 @@
                 PlayAudio(1);
             }
 
-                // mist de paddle
+            // mist de paddle
             else {
                 y = 0;
                 speed = speed * 0.7;
