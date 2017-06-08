@@ -107,13 +107,11 @@
     }
 
     function writeScore() {
-        $('#score').text(score);
         ctx.font = "30px Comic Sans MS";
         ctx.textAlign = "left";
         ctx.fillText("Score:" + score, 2, 30);
     }
     function writeLife() {
-        $('#score').text(score);
         ctx.font = "30px Comic Sans MS";
         ctx.textAlign = "left";
         ctx.fillText("Lifes:" + lifes, 2, 60);
@@ -127,7 +125,6 @@
 
     function LostLife() {
         lifes--;
-        $('#Lifes').text(lifes);
         if (lifes <= 0) {
             clearInterval(loop);
             draw();
